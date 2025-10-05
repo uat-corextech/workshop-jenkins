@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/uat-corextech/cicd.git'
+                git branch: 'main', url: 'https://github.com/uat-corextech/workshop-jenkins.git'
             }
         }
 
